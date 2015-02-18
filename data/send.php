@@ -26,7 +26,7 @@
                 $message = $response; 
         } 
     } else { 
-        $message = "Error in request"; 
+        $message = "Error in request. Check parameters"; 
     } 
 
 ?>
