@@ -18,12 +18,9 @@
                 break; 
             case "-1":  
                 $message = "Error in login, email or password is wrong"; 
-                break; 
-            case "Sin creditos":  
-                $message = "You have no credits for sending"; 
-                break; 
+                break;
             default: 
-                $message = $response; 
+                $message = "You have no credits for sending"; 
         } 
     } else { 
         $message = "Error in request. Check parameters"; 
